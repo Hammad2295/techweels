@@ -1602,15 +1602,168 @@
                                             <input type="text" class="form-control" name="testDrivedoneBy" />
                                         </div>
                                     </div>
-                                    <div class="row mt-3">
-                                        <div class="mb-3">
-                                            <label class="fs-14">Select Images</label>
-                                            <div class="card-body">
-                                                <div id="car_images_picker" class="row"></div>
-                                                <div id="preview-container"></div>
+                                    <div class='row'>
+                                        <div class='col-lg-12 col-sm-12 my-4'>
+                                            <h3 class='text-uppercase'>Car Images</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Front</label>
+                                                <div class="card-body">
+                                                    <div id="car_front_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Front Headlights</label>
+                                                <div class="card-body">
+                                                    <div id="front_headlight_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Back Lights</label>
+                                                <div class="card-body">
+                                                    <div id="back_lights_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Engine Room</label>
+                                                <div class="card-body">
+                                                    <div id="engine_room_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Stud Tower Right</label>
+                                                <div class="card-body">
+                                                    <div id="stud_tower_right_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Stud Tower Left</label>
+                                                <div class="card-body">
+                                                    <div id="stud_tower_left_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Front Right</label>
+                                                <div class="card-body">
+                                                    <div id="front_right_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Front left</label>
+                                                <div class="card-body">
+                                                    <div id="front_left_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Right</label>
+                                                <div class="card-body">
+                                                    <div id="right_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Left</label>
+                                                <div class="card-body">
+                                                    <div id="left_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Back Right</label>
+                                                <div class="card-body">
+                                                    <div id="back_right_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Back</label>
+                                                <div class="card-body">
+                                                    <div id="back_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Back left</label>
+                                                <div class="card-body">
+                                                    <div id="back_left_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Trunk</label>
+                                                <div class="card-body">
+                                                    <div id="trunk_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Interior Back</label>
+                                                <div class="card-body">
+                                                    <div id="interior_back_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Back Under-Carriage</label>
+                                                <div class="card-body">
+                                                    <div id="back_undercarriage_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-sm-12 my-4">
+                                            <div class="mb-3">
+                                                <label class="fs-14">Front Under-Carriage</label>
+                                                <div class="card-body">
+                                                    <div id="front_undercarriage_images_picker" class="row"></div>
+                                                    <div id="preview-container"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+
+
 
                                     <div class="mb-4 mt-4 row">
                                         <div class="col-lg-6 md-12">
@@ -1850,6 +2003,196 @@
     });
 </script>
 <!-- Car Pictures preview Images end-->
+
+<!------------------------------- Car Images ----------------------------------->
+
+<!-- Car Front Pictures preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#car_front_images_picker").spartanMultiImagePicker({
+            fieldName: 'car_front_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Car Front Pictures preview Images end-->
+
+<!-- Front Headlight preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#front_headlight_images_picker").spartanMultiImagePicker({
+            fieldName: 'front_headlights_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Front Headlight preview Images end-->
+
+<!-- Back Light preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#back_lights_images_picker").spartanMultiImagePicker({
+            fieldName: 'back_lights_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Back lights preview Images end-->
+
+<!-- Engine Room preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#engine_room_images_picker").spartanMultiImagePicker({
+            fieldName: 'engine_room_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Engie Room preview Images end-->
+
+<!-- Stud Tower Right preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#stud_tower_right_images_picker").spartanMultiImagePicker({
+            fieldName: 'stud_tower_right_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Stud Tower Right preview Images end-->
+
+<!-- Stud Tower left preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#stud_tower_left_images_picker").spartanMultiImagePicker({
+            fieldName: 'stud_tower_left_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Stud Tower left preview Images end-->
+
+<!-- Front Right preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#front_right_images_picker").spartanMultiImagePicker({
+            fieldName: 'front_right_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Front Right preview Images end-->
+
+<!-- Front left preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#front_left_images_picker").spartanMultiImagePicker({
+            fieldName: 'front_left_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Front Right preview Images end-->
+
+<!-- Right preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#right_images_picker").spartanMultiImagePicker({
+            fieldName: 'right_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10,
+            required: true, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Right preview Images end-->
+
+<!-- left preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#left_images_picker").spartanMultiImagePicker({
+            fieldName: 'left_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- left preview Images end-->
+
+<!-- Back Right preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#back_right_images_picker").spartanMultiImagePicker({
+            fieldName: 'back_right_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Back Right preview Images end-->
+
+<!-- Back preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#back_images_picker").spartanMultiImagePicker({
+            fieldName: 'back_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Back preview Images end-->
+
+<!-- Back left preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#back_left_images_picker").spartanMultiImagePicker({
+            fieldName: 'back_left_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Back left preview Images end-->
+
+<!-- Trunk Preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#trunk_images_picker").spartanMultiImagePicker({
+            fieldName: 'trunk_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Trunk Preview Images end-->
+
+<!-- Interior Back Preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#interior_back_images_picker").spartanMultiImagePicker({
+            fieldName: 'interior_back_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Interior Back Preview Images end-->
+
+<!-- Back Under-Carriage Preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#back_undercarriage_images_picker").spartanMultiImagePicker({
+            fieldName: 'back_undercarriage_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Back Under-Carriage Preview Images end-->
+
+<!-- Front Under-Carriage Preview Images start-->
+<script type="text/javascript">
+    $(function() {
+        $("#front_undercarriage_images_picker").spartanMultiImagePicker({
+            fieldName: 'front_undercarriage_images[]', // this configuration will send your images named "multiple_images[]" to the server
+            maxCount: 10, // set the maximum image count here
+        });
+    });
+</script>
+<!-- Front Under-Carriage Preview Images end-->
 
 
 
